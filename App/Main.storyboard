@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="e171a6df-9765-49e6-a5b4-1292c74453b7">
+        <device id="retina4_7" orientation="portrait">
+            <adaptation id="fullscreen"/>
+        </device>
+        <dependencies>
+            <deployment identifier="iOS"/>
+            <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+            <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        </dependencies>
+        <scenes>
+            <!--View Controller-->
+            <scene sceneID="e171a6df-9765-49e6-a5b4-1292c74453b7-scene">
+                <objects>
+                    <viewController id="e171a6df-9765-49e6-a5b4-1292c74453b7" sceneMemberID="viewController">
+                        <layoutGuides>
+                            <viewControllerLayoutGuide type="top" id="e171a6df-9765-49e6-a5b4-1292c74453b7-top"/>
+                            <viewControllerLayoutGuide type="bottom" id="e171a6df-9765-49e6-a5b4-1292c74453b7-bottom"/>
+                        </layoutGuides>
+                        <view key="view" contentMode="scaleAspectFit" id="view-e171a6df-9765-49e6-a5b4-1292c74453b7">
+                            <rect key="frame" x="0.0" y="0.0" width="1200" height="563"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" customClass="YTImageView" customModuleProvider="target" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab363464-3405-4596-a708-d1bdda433db1">
+                                    <rect key="frame" x="0" y="1" width="1200" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="stringUrl" value="http://tako.assets.yotako.io/images/brand/big-octo.png"/>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <view contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2382f23-7a40-4967-a246-9856c3601cc1">
+                                    <rect key="frame" x="0" y="48" width="1200" height="18"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOT SUPPORTED YET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-a2382f23-7a40-4967-a246-9856c3601cc1">
+                                            <rect key="frame" x="0.0" y="0.0" width="1200" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="0.91394694922631248" blue="0.032942227757150722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="0.032048474620000003" blue="0.050928208099999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="addBorderRight">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="addBorderLeft">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="addBorderBottom">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="addBorderTop">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target" text="officia enim in officia pariatur ipsum eiusmod irure in magna proident adipisicing ullamco labore elit Lorem ad in cillum labore velit aute fugiat in et labore in deserunt amet do fugiat nisi nisi ipsum id excepteur officia ad ut qui pariatur fugiat pariatur officia et laborum duis cupidatat incididunt occaecat enim minim magna enim esse irure commodo ut tempor cillum laboris proident veniam fugiat aute consequat tempor aliquip laboris occaecat eu reprehenderit non cupidatat tempor sit cupidatat reprehenderit commodo eiusmod officia duis exercitation esse laboris sunt Lorem aute quis et adipisicing ex enim pariatur culpa officia et dolore sit fugiat esse elit qui eiusmod ipsum eiusmod ullamco veniam cillum fugiat esse incididunt Lorem esse laboris magna nisi proident fugiat adipisicing sunt nulla cupidatat consequat velit id officia sit aliquip deserunt elit ullamco est officia ut elit cupidatat culpa amet laborum anim ex aute sint ut non duis ea proident nulla dolor consequat deserunt occaecat cillum anim et magna ullamco quis magna culpa eu sint amet labore id et nulla quis id fugiat ad dolore proident laborum occaecat non nulla incididunt deserunt labore dolore sunt laboris tempor sint occaecat mollit nulla dolor anim commodo sint aute quis anim occaecat pariatur veniam fugiat tempor Lorem mollit ad non in et ea ut et id officia pariatur exercitation ad ea exercitatio." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19b58a1d-ae23-485f-96f7-7c9ed465e16b">
+                                    <rect key="frame" x="8" y="75" width="946" height="69"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target" text="commodo cillum occaecat nulla do velit excepteur aliquip reprehenderit ea labore qui ex anim fugiat est fugiat sint deserunt pariatur eu duis nulla cupidatat officia laborum duis tempor culpa anim veniam ea enim sint consectetur amet reprehenderit id dolor veniam deserunt quis eiusmod ullamco tempor anim consequat ipsum voluptate velit officia velit adipisicing nulla pariatur sit fugiat reprehenderit qui ullamco eu quis anim dolore qui occaecat irure ullamco elit cillum dolore dolor reprehenderit irure cupidatat Lorem veniam do ipsum adipisicing exercitation dolor laboris consequat id consectetur nisi dolor est cupidatat culpa aliqua magna anim culpa esse qui commodo proident magna culpa eu laborum quis et esse est laborum magna labore reprehenderit consequat elit cillum amet aliquip ad anim reprehenderit velit mollit consectetur nisi elit pariatur reprehenderit ut in nisi ad nulla velit magna non anim ea esse esse ea mollit est excepteur officia aliqua qui et cillum exercitation quis tempor laborum elit Lorem ipsum ex non sunt duis deserunt aliqua adipisicing nulla officia amet ea aliqua consequat cillum eu Lorem sunt minim deserunt ut ex est eu minim aliqua cupidatat consectetur reprehenderit labore amet proident amet officia pariatur aliqua non mollit sint duis quis duis irure Lorem esse magna magna pariatur consequat anim consectetur elit occaecat eu nisi reprehender." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72e425f0-5aea-48f8-bc39-4612ac4f3538">
+                                    <rect key="frame" x="8" y="145" width="946" height="69"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" customClass="YTLabel" customModuleProvider="target" text="duis et ad cupidatat ullamco amet enim veniam deserunt dolore officia irure anim ad aute mollit anim aliqua deserunt non adipisicing consequat veniam tempor aliqua est velit quis irure duis et ullamco cillum magna reprehenderit ea magna exercitation duis labore cupidatat veniam dolore amet dolore aliquip ea excepteur pariatur enim magna aliqua ipsum aliquip non nostrud excepteur nulla officia mollit non mollit velit est exercitation laborum irure consectetur Lorem minim aute non duis pariatur qui adipisicing excepteur sunt nisi qui enim voluptate laborum tempor ut consequat ad laboris amet consequat do occaecat id amet Lorem non do laborum irure eu voluptate culpa enim nostrud nisi elit non non excepteur dolore eu consectetur deserunt mollit ipsum esse nisi cupidatat officia sint ea voluptate enim veniam irure quis cillum adipisicing adipisicing cillum sint minim qui velit eu reprehenderit nostrud aute sit ea quis pariatur ipsum Lorem officia ut pariatur ut est aute sunt in velit sunt eiusmod proident ipsum dolore nulla do commodo elit elit irure irure Lorem est cupidatat velit cupidatat ut ad id officia officia fugiat reprehenderit velit commodo enim laboris excepteur do reprehenderit sunt proident et do enim amet irure aliqua fugiat esse sit mollit cupidatat ad enim voluptate dolor laboris aute ad in id quis consectetur deserunt nostrud duis proident excepteur esse id." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="YES" numberOfLines="0" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a80dbf21-d230-4816-be91-86f0f97b4488">
+                                    <rect key="frame" x="8" y="214" width="946" height="69"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="" pointSize="8"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <extendedEdge key="edgesForExtendedLayout"/>
+                        <nil key="simulatedTopBarMetrics"/>
+                        <nil key="simulatedBottomBarMetrics"/>
+                    </viewController>
+                    <placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-e171a6df-9765-49e6-a5b4-1292c74453b7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </objects>
+            </scene>
+        </scenes>
+    </document>
